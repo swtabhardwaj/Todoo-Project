@@ -1,0 +1,35 @@
+body{
+    background:linear-gradient(135deg,#eef2ff,#f8fbff);
+    font-family:'Segoe UI',sans-serif;
+}
+
+.card{
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-3px);
+    box-shadow:0 12px 30px rgba(0,0,0,.12)!important;
+}
+
+.btn{
+    border-radius:10px;
+}
+
+.form-control{
+    padding:14px;
+    border-radius:12px;
+}
+
+.input-group .btn{
+    padding-left:25px;
+    padding-right:25px;
+}
+
+.badge{
+    border-radius:20px;
+}
+
+h1,h2,h4{
+    font-weight:700;
+}
