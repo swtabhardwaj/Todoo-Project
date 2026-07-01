@@ -194,7 +194,7 @@
 
     <div class="card main-card footer-form p-3">
 
-        <form action="" method="POST">
+        <form action="{% url 'addTask' %}" method="POST">
 
             {% csrf_token %}
 
@@ -206,7 +206,7 @@
                     class="form-control"
                     placeholder="✍️ Add a new task...">
 
-                <button class="btn btn-primary px-4">
+                <button type="submit"class="btn btn-primary px-4">
 
                     <i class="fa fa-plus"></i>
 
